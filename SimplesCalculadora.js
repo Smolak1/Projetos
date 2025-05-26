@@ -1,4 +1,5 @@
 function Calcular(n1, op, n2){
+    let result;
     
     if(op === "*" || op === "x" || op === "."){
         result = n1 * n2
@@ -18,18 +19,18 @@ function Calcular(n1, op, n2){
                         }
                     }
 
-function fatorar(n1){
+function fatorial(n1){
 if (n1 != undefined){  console.log(`|Fatorando o número ${n1}|`);
 console.log(`----------------------`)
-    let fatorado = 1n;
+    let fatoriado = 1n;
     let n2 = n1;
 if(n1 == 0 || n1 == 1){
     console.log(`| "${n1}" não é uma entrada válida. |`)
 }
 while(n1 > 1){
     
-    fatorado *= BigInt(n1);
-        console.log(`| Fatorando...${fatorado}|`);
+    fatoriado *= BigInt(n1);
+        console.log(`| Fatoriando...${fatoriado}|`);
         n1--}
 
  console.log(`----------------------`)
@@ -46,4 +47,4 @@ function Extrair(n, qnt) {
     console.log(result)
 }
 
-            Extrair(125, 3)
+            fatorial(10)
