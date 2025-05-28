@@ -13,4 +13,5 @@ let calc3 = Math.sqrt(calc1P)
 let calcX = (bNegativo + calc3) / divisao
 let calcY = (bNegativo - calc3) / divisao
 
-console.log(`X = ${calcX} X' ${calcY}`)
+console.log(`
+S={${calcX},${calcY}}.`)
