@@ -15,10 +15,10 @@ let somaXcalc = somaX % divisao
 let subYcalc = subY % divisao
 let calcX;
 let calcY;
-    if(somaXcalc = 0){calcX = somaX / divisao}
+    if(somaXcalc == 0){calcX = somaX / divisao}
     else {calcX = `${somaX}/${divisao}`}
 
-    if(subYcalc = 0){
+    if(subYcalc == 0){
 calcY = subY / divisao}
     else {calcY = `${subY}/${divisao}`}
 
