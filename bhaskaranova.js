@@ -23,7 +23,8 @@ let calcY;
 calcY = subY / divisao}
     else {calcY = `${subY}/${divisao}`}
 
-
+        if (calcX == calcY){
+          console.log(`Raiz dupla: S={${calcY}}.`)}else {        
 
 console.log(`
-S={${calcX},${calcY}}.`)}
+S={${calcX},${calcY}}.`)}}
