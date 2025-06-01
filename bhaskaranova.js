@@ -9,6 +9,7 @@ let calc2P = -4 * a * c
 let calc1P = bQuadrado + calc2P
 let divisao = 2 * a
 let calc3 = Math.sqrt(calc1P)
+if (Number.isNaN(calc3)){console.log(`Sem Raiz.`)}else{
 let somaX = bNegativo + calc3
 let subY = bNegativo - calc3
 let somaXcalc = somaX % divisao
@@ -25,4 +26,4 @@ calcY = subY / divisao}
 
 
 console.log(`
-S={${calcX},${calcY}}.`)
+S={${calcX},${calcY}}.`)}
